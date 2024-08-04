@@ -1,0 +1,49 @@
+#result{
+  display: none;
+  background-color: #F6FCFF;
+  font-family: 'Noto Sans KR', sans-serif; 
+  background-image: url('../img/questions_bg.jpg');
+  background-position: top center;
+  text-align: center;
+  word-break: keep-all;
+}
+img {
+  display : block;
+  margin : 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.resultname{
+    min-height: 100px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size : 15px;
+    font-weight: 650;
+    line-height: 2;
+    text-align: center;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding : 20px;
+}
+
+.resultDesc{
+  font-size: 20px;
+}
+
+.kakao{
+  color: white;
+  background-color: #FEE500;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus {
+  background-color: whitesmoke;
+  color: #FEE500;
+}

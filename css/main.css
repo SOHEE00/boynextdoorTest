@@ -1,0 +1,231 @@
+body {
+  background-color: #F6FCFF;
+  font-family: 'Noto Sans KR', sans-serif; 
+  background-image: url('../img/questions_bg.jpg');
+  background-position: top center;
+  text-align: center;
+  word-break: keep-all;
+  margin : 0 auto;
+}
+
+p,h1,h2,h3,.btn{
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif; 
+}
+
+img {
+  display : block;
+  margin : 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.page-title {
+  justify-content: center;
+  font-size : 20px;
+  font-weight : 700;
+  line-height: 1.3;
+  color : #645262;
+  text-align: center;
+  margin-bottom : 20px;
+}
+.page-subtitlte {
+  width : 250px;
+  height : 40px;
+  border : 5px solid #c689bb;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  font-size : 24px;
+  font-weight: 700;
+  color : #c689bb;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom: 20px;
+}
+.page-subtitlte_ {
+  width : 100px;
+  height : 50px;
+  border : 5px solid #ffc7f5;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  font-size : 24px;
+  font-weight: 700;
+  color : #ffc7f5;
+  margin-left : auto;
+  margin-right : auto;
+  margin-bottom: 20px;
+}
+.btn {
+  max-width: 500px;
+  width: 250px;
+  height: 80px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  font-size : 50px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor : pointer;
+  border-radius: 20px;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  transition : 0.1s;
+}
+.btn-pink {
+  background-color: #ffc8f6;
+  box-shadow: 0 14px 0 rgb(255, 88, 236);
+  color : #FFFFFF;
+  font-size : 26px;
+}   
+.btn-pink:active {
+  box-shadow: 0 4px 0 #e10404;
+  transform: translateY(10px);
+}
+.btn-green {
+  background-color: #c796c1;
+  box-shadow: 0 14px 0 #645262;
+  color : #FFFFFF;
+}
+.btn-green:active {
+  box-shadow: 0 4px 0 #299A82;
+  transform: translateY(10px);
+}
+.btn-gray {
+  background-color: #F2F4F6;
+  box-shadow: 0 14px 0 #DFE1E2;
+  color : #444444;
+}
+.btn-gray:active {
+  box-shadow: 0 4px 0 #DFE1E2;
+  transform: translateY(10px);
+}
+.btn-small {
+  max-width : 350px;
+  height : 70px;
+  font-size : 26px;
+  margin-bottom : 30px;
+}
+.btn-small {
+  max-width : 350px;
+  height : 70px;
+  font-size : 26px;
+  margin-bottom : 30px;
+}
+@media (max-width: 640px) {
+  body {
+      padding-top : 50px;
+      margin-left: 20px;
+      margin-right : 20px;
+  }
+  .page-title {
+      font-size : 40px;
+  }
+  .btn {
+      font-size : 34px;
+  }
+}
+
+.progress-bar {
+  width: 300px;
+  height: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 100%;
+  width: 50px;
+  background-color: #645262;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+.progress2 {
+  height: 100%;
+  width: 100px;
+  background-color: #645262;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+.progress3 {
+  height: 100%;
+  width: 150px;
+  background-color: #645262;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+.progress4 {
+  height: 100%;
+  width: 200px;
+  background-color: #645262;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+.progress5 {
+  height: 100%;
+  width: 250px;
+  background-color: #645262;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+.progress6 {
+  height: 100%;
+  width: 300px;
+  background-color: #645262;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+
+.me {
+  width : 300px;
+  height : 180px;
+  background-color: #ffeff9;
+  box-shadow: 0 0 8px rgb(255, 142, 255);
+  margin : 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+  justify-content: center;
+  align-items: center;
+  font-size : 15px;
+  font-weight: 650;
+  line-height: 2;
+  text-align: center;
+  
+  justify-content: center;
+  align-items: center;
+  padding : 20px;
+}
+
+.me h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color : #645262;
+  line-height: 1.4;
+  text-align: center;
+  padding : 30px;
+  padding-bottom : 30px;
+  padding-left : 10px;
+  padding-right : 10px;
+}
+
+.inner {
+  margin: 0 auto;
+}
+
+.character {
+  width : 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display : block;
+  margin-bottom : 40px;
+  margin-top : -80px;
+}
